@@ -107,7 +107,7 @@ Miku.ev.on('groups.update', async pea => {
         Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Restricted*, Now only *Admins* can edit Group Info !'})
         } else if (pea[0].restrict == false) {
         //Miku.send5ButImg(pea[0].id, `Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !`, `Miku Bot`, wm_fatih, [])
-        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Info modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !'})
+        Miku.sendMessage(m.chat, { image: wm_fatih, caption: 'Group Information modification has been *Un-Restricted*, Now only *Everyone* can edit Group Info !'})
         } else {
         //Miku.send5ButImg(pea[0].id, `Group Subject has been uhanged To:\n\n*${pea[0].subject}*`, `Miku Bot`, wm_fatih, [])
         mikutextddfq =`Group Subject has been updated To:\n\n*${pea[0].subject}*`
