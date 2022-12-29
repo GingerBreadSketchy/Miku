@@ -123,7 +123,7 @@ let caklontong = db.game.lontong = []
 let caklontong_desk = db.game.lontong_desk = []
 let tebakkalimat = db.game.kalimat = []
 let tebaklirik = db.game.lirik = []
-let tebakteMsee!!n = db.game.teMsee!!n = []
+let tebaktebakan = db.game.tebakan = []
 let vote = db.others.vote = []
 
 let pendaftar = JSON.parse(fs.readFileSync('./storage/user/user.json'))
@@ -730,7 +730,7 @@ if (AntiLink) {
     if (isCreator) return reply(bvl)
     kice = m.sender
     await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
-    Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Msee!! Has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+    Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka Has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
     } else {
     }
     }
@@ -744,7 +744,7 @@ if (AntiLink) {
   if (isCreator) return reply(bvl)
   kice = m.sender
   await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-  Miku.sendMessage(from, {text:`\`\`\`「 'wa.me' PM link Detected! 」\`\`\`\n\n@${kice.split("@")[0]} Msee!! Has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+  Miku.sendMessage(from, {text:`\`\`\`「 'wa.me' PM link Detected! 」\`\`\`\n\n@${kice.split("@")[0]} Baka Has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
   } else {
   }
   if (antiWame)
@@ -756,7 +756,7 @@ if (m.key.fromMe) return reply(bvl)
 if (isCreator) return reply(bvl)
 kice = m.sender
 await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-Miku.sendMessage(from, {text:`\`\`\`「 'wa.me' PM link Detected! 」\`\`\`\n\n@${kice.split("@")[0]}  Msee!! Has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+Miku.sendMessage(from, {text:`\`\`\`「 'wa.me' PM link Detected! 」\`\`\`\n\n@${kice.split("@")[0]}  Baka Has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
 } else {
 }
 
@@ -782,7 +782,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Msee!! has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         }
@@ -797,7 +797,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Msee!! has been removed for sending Yt video link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Yt video link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -810,7 +810,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Msee!! has been removed for sending Yt channel link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Yt channel link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -823,7 +823,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Msee!! has been removed for sending Instagram link in this group! No promotion is allowed!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Instagram link in this group! No promotion is allowed!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -836,7 +836,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Msee!! has been removed for sending Facebook link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Facebook link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -850,7 +850,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Msee!! has been removed for sending Telegram link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Telegram link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -863,7 +863,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Msee!! has been removed for sending Tiktok link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Tiktok link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -876,7 +876,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Msee!! has been removed for sending Twitter link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending Twitter link in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -889,7 +889,7 @@ if (antiVirtex) {
         if (isCreator) return reply(bvl)
         kice = m.sender
         await Miku.groupParticipantsUpdate(m.chat, [kice], 'remove')
-        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Msee!! has been removed for sending links in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
+        Miku.sendMessage(from, {text:`\`\`\`「  Antilink System  」\`\`\`\n\n@${kice.split("@")[0]} Baka has been removed for sending links in this group!`, contextInfo:{mentionedJid:[kice]}}, {quoted:m})
         } else {
         }
         
@@ -985,12 +985,12 @@ let cron = require('node-cron')
           } else reply('*Wrong answer!*')
           }
           
-          if (tebakteMsee!!n.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
+          if (tebaktebakan.hasOwnProperty(m.sender.split('@')[0]) && isCmd) {
           kuis = true
-          jawaban = tebakteMsee!!n[m.sender.split('@')[0]]
+          jawaban = tebaktebakan[m.sender.split('@')[0]]
           if (budy.toLowerCase() == jawaban) {
           await Miku.sendButtonText(m.chat, [{ buttonId: 'riddles', buttonText: { displayText: 'Riddles' }, type: 1 }], `🎮 Riddles 🎮\n\nCorrect Answer 🎉\n\nWant to play again? press the button below`, `${global.BotName}`, m)
-          delete tebakteMsee!!n[m.sender.split('@')[0]]
+          delete tebaktebakan[m.sender.split('@')[0]]
           } else reply('*Wrong answer!*')
           }
           
@@ -1334,7 +1334,7 @@ const ftroli = {
 
 
     const menulist = `
-    oyaa!!! ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: GingerBreadSketchy to take your WhatsApp usage into next level.
+    Niaje ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: GingerBreadSketchy to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1381,8 +1381,8 @@ return list[Math.floor(list.length * Math.random())]
       reply (`Hello *${pushname}*, I am *${BotName}*. How can i help you?`);
     } 
 
-    if( smallinput.includes('oyaa!!!') || smallinput.includes('konochiwa') || smallinput.includes('konichiba') || smallinput.includes('salute')){
-      reply (`oyaa!!! *${pushname}*, I am *${BotName}*. How can i help you?`);
+    if( smallinput.includes('Niaje') || smallinput.includes('konochiwa') || smallinput.includes('konichiba') || smallinput.includes('salute')){
+      reply (`Niaje *${pushname}*, I am *${BotName}*. How can i help you?`);
     }
    
     if (smallinput=='bot') {
@@ -1512,8 +1512,7 @@ replay('This Group has been *unbanned* from using me!')
 
 case 'support': case 'supportgc':
     
-
-    reply(`*My developer's group:* https://chat.whatsapp.com/GGxhoQOJuT3KZFeZzT3tjl`)
+    reply(`*My developer's group:* http://gg.gg/MikuSupport`)
     break
 
 case 'repo': case 'botrepo':
@@ -1799,7 +1798,7 @@ case 'delete': case 'del': {
  if (isBanChat) return reply(mess.bangc)
  if (!m.quoted) return
  let { chat, fromMe, id, isBaileys } = m.quoted
- if (!isBaileys) return replay('How can i delete messages of other person? Msee!!!')
+ if (!isBaileys) return replay('How can i delete messages of other person? Baka!')
  Miku.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: true, id: m.quoted.id, participant: m.quoted.sender } })
  }
  break
@@ -1810,7 +1809,7 @@ case 'delete': case 'del': {
  if (isBanChat) return reply(mess.bangc)
  if (!isBotAdmins) return replay(mess.botadmin)
  if (!isAdmins && !isCreator) return replay(mess.useradmin)
- if (!m.quoted) return reply('Please mention a message Msee!!!')
+ if (!m.quoted) return reply('Please mention a message baka!')
  let { chat, fromMe, id} = m.quoted
 
 const key = {
@@ -4797,9 +4796,9 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
       
- const helpmenu = `oyaa!!! *${pushname}* Niaje,
+ const helpmenu = `Niaje *${pushname}* Msee,
 
-I am *Miku Sketchy*, a bot developed by *GingerBreadSketchy*.
+I am *Miku Kinothia*, a bot developed by *GingerBreadSketchy*.
 
 🔰 My prefix is:  ${prefix}
 
@@ -4907,7 +4906,7 @@ case '':
       mikupic ='https://wallpapercave.com/wp/wp10524580.jpg'
     
         
- const needhelpmenu = `Do you need help ${pushname} Niaje? Type *${prefix}help* to get my full command list.`
+ const needhelpmenu = `Do you need help ${pushname} Msee? Type *${prefix}help* to get my full command list.`
      
          let butRun = [
                 {buttonId: `${prefix}help`, buttonText: {displayText: 'Help'}, type: 1}
@@ -5037,7 +5036,7 @@ default:
     if(isCmd){
         if (isBan) return reply(mess.banned)	 			
         if (isBanChat) return reply(mess.bangc)
-        reply (`No such command programmed *${pushname}* Niaje! Type *${prefix}help* to get my full command list!`)
+        reply (`No such command programmed *${pushname}* Msee! Type *${prefix}help* to get my full command list!`)
 
     }	 			
 
